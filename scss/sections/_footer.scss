@@ -28,6 +28,9 @@
 		 @include media-breakpoint-only(md) {
 		 margin-left: 1rem;
 	   }
+	   		 @media (min-width: 582px) and (max-width: 596px) { 
+     margin-left: 1rem;
+         }
 		}
 		h4 {
 			 @include media-breakpoint-down(md) {
@@ -62,11 +65,15 @@
 	   padding-left: 0.1rem;
 	   margin-right: 17rem; 
     	     }
+    @media (min-width: 992px) and (max-width: 1060px) { 
+      margin-right: 4rem;
+      }	     
 	 @include media-breakpoint-only(md) {
 	   
 	   padding-left: 3rem;
 	   margin-right: 6rem; 
 	     }
+   
 	     h4 {
 	     	 @include media-breakpoint-down(md) {
 	       font-size: 1.2rem;
@@ -208,6 +215,13 @@ border-color: blue;
 
 		}
 	}
+	.contact-box__info{
+	.title-2  {
+		@media (min-width: 50px) and (max-width: 320px) { 
+    display: none;
+		}
+	 }
+	}
 }
 
 .footer-sm {
@@ -261,14 +275,12 @@ border-color: blue;
 
 .back-to-top {
 	position: fixed;
-	left: 1.875rem;
 	bottom: 1.875rem;
 	width: 4rem;
 	height: 4rem;
 	z-index: 9999;
 	background-color:  #0b0a2a;
 	@include media-breakpoint-down(sm) {
-		right: 1.875rem;
 	}
 	i {
 		color: white;

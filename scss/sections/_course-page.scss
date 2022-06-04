@@ -7,7 +7,7 @@
 		font-size: 1.5rem;
 		margin-bottom: 2rem;
 		line-height: 2rem;
-		color: red;
+		color: #17223e;
 		font-weight: 700;
     filter: drop-shadow(0.20em 0.30em 0.2em);
     font-family: 'Noto Nastaliq Urdu', serif;
@@ -16,6 +16,8 @@
 			font-size: 1.3rem;
 			margin-bottom: 2.5rem;
 			line-height: 3rem;
+		color: #17223e;
+	    
     filter: drop-shadow(0.20em 0.30em 0.2em);
      font-family: 'Noto Nastaliq Urdu', serif;
 
@@ -25,6 +27,9 @@
 			font-size: 1rem;
 			margin-bottom: 3rem;
 			margin-top: -2rem;
+		color: #17223e;
+		
+
     filter: drop-shadow(0.20em 0.30em 0.2em);
      font-family: 'Noto Nastaliq Urdu', serif;
 
@@ -40,12 +45,17 @@
      font-family: 'Noto Nastaliq Urdu', serif;
      margin-top: 1rem;
      margin-bottom: 2rem;
+		color: #17223e;
+		
+
 
 
 			@include media-breakpoint-only(md) {
 			font-weight: 900;
      font-family: 'Noto Nastaliq Urdu', serif;
-
+		color: #17223e;
+		
+     
 			font-size: 2rem;
     }
 			@include media-breakpoint-down(sm) {
@@ -54,16 +64,18 @@
 			margin-bottom: 1rem;
 			margin-top: -2rem;
      font-family: 'Noto Nastaliq Urdu', serif;
-
+		color: #17223e;
+		
+    
 
     }
 		}
 		h2 {
 			  font-size: 1.3rem;
      font-family: 'Noto Nastaliq Urdu', serif;
-     color: red;
+     color: black;
      margin-bottom: 1rem;
-
+     
 				@include media-breakpoint-only(md) {
 				font-size: 1.3rem;
      font-family: 'Noto Nastaliq Urdu', serif;
@@ -92,6 +104,8 @@
      font-family: 'Noto Nastaliq Urdu', serif;
      margin-top: 1rem;
      margin-bottom: 2rem;
+		color: #17223e;
+
 
 			@include media-breakpoint-only(md) {
 				font-weight: 900;
@@ -109,7 +123,7 @@
 		    font-size: 1.3rem;
      font-family: 'Noto Nastaliq Urdu', serif;
     margin-bottom: 1rem;
-    color: red;
+    color: black;
 				@include media-breakpoint-only(md) {
 				font-size: 1.3rem;
     }
@@ -188,29 +202,32 @@
  		}
  	}
  	h4 {
+ 		font-weight: lighter;
+ 		color: black;
  		@include media-breakpoint-up(lg) {
  			margin-right: 8rem;
      font-family: 'Noto Nastaliq Urdu', serif;
      font-size: 1.3rem;
      margin-bottom: 1rem;
-     color: red;
+     color: black;
+     font-weight: lighter;
 
  		}
  		@include media-breakpoint-only(md) {
  			margin-right: 8rem;
- 			font-weight: 400;
+ 			font-weight: lighter;
  			margin-bottom: 1.5rem;
  			font-size: 1rem;
- 			color: red;
+ 			color: black;
      font-family: 'Noto Nastaliq Urdu', serif;
 
  		}
  		@include media-breakpoint-down(sm) {
  			margin-right: 3rem;
- 			font-weight: 400;
+ 			font-weight: lighter;
  			font-size: 0.7rem;
  			line-height: 1.5rem;
- 			color: red;
+ 			color: black;
      font-family: 'Noto Nastaliq Urdu', serif;
 
  		}
