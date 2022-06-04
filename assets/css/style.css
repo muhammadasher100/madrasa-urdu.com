@@ -11509,7 +11509,8 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .last-section h1 {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    color: #17223e;
   }
 }
 .last-section h2 {
