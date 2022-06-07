@@ -11272,14 +11272,18 @@ textarea.form-control-lg {
   }
 }
 .display-2--description {
+  font-family: alvinastaleeq;
   display: block;
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-transform: none;
 }
 @media (min-width: 992px) {
   .display-2--description {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     margin-top: 5.5rem;
+    text-align: justify;
+    word-spacing: 0.5px;
+    color: black;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11305,6 +11309,7 @@ textarea.form-control-lg {
     margin-top: -6rem;
     line-height: 2rem;
     font-size: 1rem;
+    color: black;
   }
 }
 
@@ -11332,11 +11337,13 @@ textarea.form-control-lg {
     display: block;
     font-size: 1rem;
     text-transform: none;
+    font-family: alvinastaleeq;
   }
 }
 @media (min-width: 992px) and (min-width: 992px) {
   .display-3--description {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
+    text-align: justify;
     color: black;
   }
 }
@@ -11353,8 +11360,11 @@ textarea.form-control-lg {
   .display-3--description {
     display: block;
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1.5rem;
+    text-align: justify;
+    word-spacing: 0.2rem;
     text-transform: none;
+    font-family: alvinastaleeq;
   }
 }
 @media (max-width: 575.98px) and (min-width: 992px) {
@@ -11440,6 +11450,10 @@ textarea.form-control-lg {
   .extra-head h5 {
     font-family: "Noto Nastaliq Urdu", serif;
     font-size: 2rem;
+    font-weight: 600;
+  }
+  .extra-head h5:hover {
+    text-decoration: underline;
   }
 }
 
@@ -11498,7 +11512,7 @@ textarea.form-control-lg {
   margin-top: 5rem;
 }
 .last-section h1 {
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   text-align: right;
   line-height: 3rem;
   margin-bottom: 2rem;
@@ -11509,7 +11523,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 575.98px) {
   .last-section h1 {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
     color: #17223e;
   }
 }
@@ -11529,19 +11543,38 @@ textarea.form-control-lg {
 
 .menu {
   margin-top: 6rem;
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
 }
 @media (min-width: 992px) and (max-width: 1199.98px) {
   .menu {
-    background: rgb(2, 0, 36);
-    height: 5rem;
+    height: 3rem;
     margin-bottom: -8rem;
   }
 }
 @media (min-width: 768px) {
   .menu {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
+    height: 5rem;
+    background-color: #b9b9b9;
+    margin-top: 7rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu {
+    margin-top: 5.8rem;
+  }
+}
+@media (min-width: 758px) and (max-width: 767px) {
+  .menu {
+    margin-top: 5.8rem;
+  }
+}
+@media (min-width: 689px) and (max-width: 757px) {
+  .menu {
+    margin-top: 5.8rem;
+  }
+}
+@media (min-width: 576px) and (max-width: 687px) {
+  .menu {
+    margin-top: 5.8rem;
   }
 }
 @media (max-width: 767.98px) {
@@ -11565,7 +11598,7 @@ textarea.form-control-lg {
 }
 @media (min-width: 992px) {
   .menu .dropdown {
-    margin-top: -15rem;
+    margin-top: -17rem;
     background-color: #16213d;
     padding: 0.5rem;
     padding-top: 1rem;
@@ -11721,12 +11754,51 @@ textarea.form-control-lg {
     margin-top: 1.5rem;
   }
 }
+.menu .navbar-nav ul li {
+  float: right;
+  list-style-type: none;
+  background-color: black;
+  height: 5rem;
+  margin-right: 2rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 8.5rem;
+}
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .menu .navbar-nav ul li {
+    margin-right: 0.3rem;
+  }
+}
+@media (min-width: 991px) and (max-width: 1199px) {
+  .menu .navbar-nav ul li {
+    width: 7rem;
+    margin-right: 0.3rem;
+  }
+}
+@media (min-width: 50px) and (max-width: 991px) {
+  .menu .navbar-nav ul li {
+    display: none;
+  }
+}
+@media (max-width: 575.98px) {
+  .menu .navbar-nav ul li {
+    display: none;
+  }
+}
 @media (min-width: 992px) {
   .menu .navbar-nav a {
     color: white !important;
-    margin-top: 1.5rem;
-    font-size: 1rem;
-    margin-right: 1rem;
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-family: alvinastaleeq;
+  }
+}
+@media (min-width: 992px) and (min-width: 991px) and (max-width: 1199px) {
+  .menu .navbar-nav a {
+    font-size: 0.9rem;
   }
 }
 @media (max-width: 767.98px) {
@@ -11768,6 +11840,7 @@ textarea.form-control-lg {
     font-weight: 900;
     font-size: 1.3rem;
     color: #5a5a5a;
+    font-family: alvinastaleeq;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11777,6 +11850,7 @@ textarea.form-control-lg {
     font-weight: 900;
     font-size: 1.3rem;
     color: #5a5a5a;
+    font-family: alvinastaleeq;
   }
 }
 @media (max-width: 575.98px) {
@@ -11786,12 +11860,13 @@ textarea.form-control-lg {
     color: #5a5a5a;
     font-weight: 900;
     font-size: 1.3rem;
+    font-family: alvinastaleeq;
   }
 }
 
 @media (min-width: 992px) {
   .purposes {
-    margin-top: 11rem;
+    margin-top: 13rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -11972,7 +12047,7 @@ textarea.form-control-lg {
 
 @media (min-width: 992px) {
   .google-form {
-    margin-top: 12rem;
+    margin-top: 14rem;
     margin-bottom: -18rem;
   }
 }
@@ -12041,7 +12116,7 @@ textarea.form-control-lg {
 }
 
 .contact {
-  margin-top: 11rem;
+  margin-top: 13rem;
 }
 .contact h1 {
   text-align: center;
@@ -12136,7 +12211,7 @@ address .contact-details ul li span {
 }
 
 .course-page {
-  margin-top: 12rem;
+  margin-top: 14rem;
 }
 .course-page h1 {
   font-size: 1.5rem;
@@ -12385,7 +12460,7 @@ address .contact-details ul li span {
 
 @media (min-width: 992px) {
   .facilities {
-    margin-top: 11rem;
+    margin-top: 13rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12564,48 +12639,43 @@ address .contact-details ul li span {
 }
 
 .top-bar {
-  background-color: white;
+  background-color: #b9b9b9;
 }
 .top-bar h1 {
   font-size: 2.5rem;
   font-family: alqalam;
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   margin-bottom: 1rem;
   line-height: 2rem;
+  font-size: 1.8rem;
 }
 @font-face {
   .top-bar h1 {
     font-family: alqalam;
-    src: url(al-qalam/Al-Qalam-Quran-Majeed-2.ttf) format("truetytpe");
+    src: url(al-qalam/Al-Qalam-Quran-Majeed-2.ttf) format("truetype");
   }
 }
 @media (max-width: 575.98px) {
   .top-bar h1 {
-    margin-top: 0.5rem;
-    font-size: 1.3rem;
-    line-height: 1.2rem;
+    margin-top: 0.7rem;
+    font-size: 1.2rem;
+    line-height: 0.6rem;
   }
 }
 .top-bar h2 {
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-family: alqalam;
-}
-@font-face {
-  .top-bar h2 {
-    font-family: alqalam;
-    src: url(al-qalam/Al-Qalam-Quran-Majeed-2.ttf) format("truetytpe");
-  }
 }
 @media (max-width: 575.98px) {
   .top-bar h2 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
 }
 @media (min-width: 992px) {
   .top-bar img {
     margin-left: 62rem;
     width: 9.5rem;
-    margin-top: -7rem;
+    margin-top: -6.5rem;
   }
 }
 @media (min-width: 4275px) and (max-width: 9982px) {
@@ -12657,12 +12727,11 @@ address .contact-details ul li span {
 .intro-section {
   margin-top: 7rem;
   position: relative;
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
+  background-color: #b9b9b9;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .intro-section {
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 }
 @media (max-width: 575.98px) {
@@ -12722,6 +12791,55 @@ address .contact-details ul li span {
   }
 }
 
+.extra-section {
+  margin-top: 8rem;
+}
+.extra-section .image-1 {
+  filter: drop-shadow(0.8em 0.8em 0.7em);
+  margin-bottom: 3rem;
+}
+@media (min-width: 50px) and (max-width: 991px) {
+  .extra-section .image-1 {
+    width: 100%;
+  }
+}
+.extra-section .image-2 {
+  filter: drop-shadow(0.8em 0.8em 0.7em);
+  margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+  .extra-section .image-2 {
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 50px) and (max-width: 991px) {
+  .extra-section .image-2 {
+    width: 100%;
+  }
+}
+.extra-section .image-3 {
+  filter: drop-shadow(0.8em 0.8em 0.7em);
+  margin-bottom: 3rem;
+}
+@media (min-width: 992px) {
+  .extra-section .image-3 {
+    margin-left: 3rem;
+  }
+}
+@media (min-width: 50px) and (max-width: 991px) {
+  .extra-section .image-3 {
+    width: 100%;
+  }
+}
+.extra-section .image-4 {
+  filter: drop-shadow(0.8em 0.8em 0.7em);
+}
+@media (min-width: 50px) and (max-width: 991px) {
+  .extra-section .image-4 {
+    width: 100%;
+  }
+}
+
 .intro-section-3 {
   background: rgb(2, 0, 36);
   background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(24, 24, 51) 35%, rgb(0, 212, 255) 100%);
@@ -12758,97 +12876,9 @@ address .contact-details ul li span {
   }
 }
 
-.extra-section {
-  margin-top: 10rem;
-  filter: drop-shadow(0.8em 0.8em 1.5em);
-}
-@media (min-width: 768px) and (max-width: 991.98px) {
-  .extra-section {
-    margin-right: 8rem;
-  }
-}
-.extra-section .islamic {
-  margin-left: 10rem;
-}
-@media (min-width: 582px) and (max-width: 596px) {
-  .extra-section .islamic {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (min-width: 597px) and (max-width: 767px) {
-  .extra-section .islamic {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (max-width: 575.98px) {
-  .extra-section .islamic {
-    width: 7rem;
-    height: 7rem;
-    margin-top: -10rem;
-  }
-}
-@media (min-width: 50px) and (max-width: 320px) {
-  .extra-section .islamic {
-    display: none;
-  }
-}
-.extra-section .islamic-2 {
-  margin-left: 5rem;
-}
-@media (min-width: 582px) and (max-width: 596px) {
-  .extra-section .islamic-2 {
-    margin-right: 2rem;
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (min-width: 597px) and (max-width: 767px) {
-  .extra-section .islamic-2 {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (max-width: 575.98px) {
-  .extra-section .islamic-2 {
-    width: 7rem;
-    height: 7rem;
-    margin-top: -2rem;
-  }
-}
-@media (min-width: 50px) and (max-width: 320px) {
-  .extra-section .islamic-2 {
-    display: none;
-  }
-}
-@media (min-width: 582px) and (max-width: 596px) {
-  .extra-section .islamic-3 {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (min-width: 597px) and (max-width: 767px) {
-  .extra-section .islamic-3 {
-    width: 5rem;
-    height: 5rem;
-  }
-}
-@media (max-width: 575.98px) {
-  .extra-section .islamic-3 {
-    width: 7rem;
-    height: 7rem;
-  }
-}
-@media (min-width: 50px) and (max-width: 320px) {
-  .extra-section .islamic-3 {
-    display: none;
-  }
-}
-
 @media (min-width: 992px) {
   .faq {
-    margin-top: 23rem;
+    margin-top: 24rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -13171,40 +13201,27 @@ address .contact-details ul li span {
     display: block;
   }
 }
-.footer-2 .contact-box {
-  position: relative;
+.footer-2 .number {
+  margin-bottom: 2rem;
 }
-.footer-2 .contact-box__icon {
-  width: 3rem;
-  stroke: #030225;
-  padding-top: 0.5rem;
-}
-.footer-2 .contact-box__info {
-  padding: 0.4rem;
-  font-weight: 600;
-}
-.footer-2 .contact-box__info--title {
-  color: #fff;
-  text-decoration: none;
-  font-size: 1rem;
-  margin-left: 7rem;
-}
-.footer-2 .contact-box__info--subtitle {
-  font-size: 0.8rem;
-  color: #6c757d;
-  text-decoration: none;
-  margin-left: 2rem;
-  text-align: right;
-}
-.footer-2 .contact-box .title-3 {
-  margin-left: 9.5rem;
+.footer-2 .number h1 {
   color: white;
-  text-decoration: none;
+  font-size: 1rem;
 }
-@media (min-width: 50px) and (max-width: 320px) {
-  .footer-2 .contact-box__info .title-2 {
-    display: none;
-  }
+.footer-2 .number h2 {
+  color: #6c757d;
+  font-size: 1rem;
+}
+.footer-2 .Email {
+  margin-bottom: 2rem;
+}
+.footer-2 .Email h1 {
+  color: white;
+  font-size: 1rem;
+}
+.footer-2 .Email h2 {
+  color: #6c757d;
+  font-size: 1rem;
 }
 
 .footer-sm a {
