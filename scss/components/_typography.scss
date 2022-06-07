@@ -21,12 +21,16 @@
    
    }
 		&--description {
+     font-family: alvinastaleeq;
 			display: block;
-			font-size: 1rem;
+			font-size: 1.2rem;
 			text-transform: none;
 			@include media-breakpoint-up(lg) {
-			 font-size: 1.5rem;
+			 font-size: 1.9rem;
 			 margin-top: 5.5rem;
+			 text-align: justify;
+			 word-spacing: 0.5px;
+			 color: black;
 		}
 		@include media-breakpoint-only(md) {
 			margin-top: 4rem;
@@ -44,6 +48,7 @@
 			margin-top: -6rem;
 			line-height: 2rem;
 			font-size: 1rem;
+			color: black;
 		}
 		
 			 
@@ -64,6 +69,7 @@
 		@include media-breakpoint-up(lg) {
 			 font-size: 3.5rem;
 
+
 		}
 	
 
@@ -73,9 +79,13 @@
 			display: block;
 			font-size: 1rem;
 			text-transform: none;
+			font-family: alvinastaleeq;
+
 			@include media-breakpoint-up(lg) {
-			 font-size: 1.5rem;
+			 font-size: 1.9rem;
+			 text-align: justify;
 			 color: black;
+
 
 		}
 		}
@@ -96,10 +106,15 @@
 		&--description {
 			display: block;
 			font-size: 1rem;
-			line-height: 2rem;
+			line-height: 1.5rem;
+			text-align: justify;
+			word-spacing: 0.2rem;
 			text-transform: none;
+			font-family: alvinastaleeq;
+
 			@include media-breakpoint-up(lg) {
 			 font-size: 2.2rem;
+
 		}
 			 
 		}
@@ -193,6 +208,10 @@
      	h5 {
         font-family: 'Noto Nastaliq Urdu', serif;
      		font-size: 2rem;
+     		font-weight: 600;
+     		&:hover {
+     			text-decoration: underline;
+     		}
      	}
 		}
   
@@ -248,7 +267,7 @@
 .last-section {
 	margin-top: 5rem;
 	h1 {
-		font-size: 2.5rem;
+		font-size: 1.8rem;
 		text-align: right;
 		line-height: 3rem;
 		margin-bottom: 2rem;
@@ -258,7 +277,7 @@
     font-family: 'Noto Nastaliq Urdu', serif;
 
 		@include media-breakpoint-down(sm) {
-			font-size: 1.4rem;
+			font-size: 1.1rem;
 		  color: #17223e;
 
 		}

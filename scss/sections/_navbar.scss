@@ -2,16 +2,29 @@
 .menu {
 	margin-top: 6rem;
   @include media-breakpoint-only(lg) {
-	background: rgb(2,0,36);
-  height: 5rem;
+  height: 3rem;
   margin-bottom: -8rem;
 }
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,51,1) 35%, rgba(0,212,255,1) 100%);
   @include media-breakpoint-up(md) {
-	background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,24,51,1) 35%, rgba(0,212,255,1) 100%);
- 	
+    height: 5rem;
+    background-color: #b9b9b9;
+     margin-top: 7rem;
   }
+  @include media-breakpoint-only(md) {
+  }
+   @media (min-width: 768px) and (max-width: 991px) { 
+     margin-top: 5.8rem;
+    }
+   @media (min-width: 758px) and (max-width: 767px) { 
+     margin-top: 5.8rem;
+   }
+  @media (min-width: 689px) and (max-width: 757px) { 
+     margin-top: 5.8rem;
+   }
+     @media (min-width: 576px) and (max-width: 687px) { 
+     margin-top: 5.8rem;
+   }
+
   @include media-breakpoint-down(md) {
   background: rgb(198,198,198);
 	background: linear-gradient(180deg, rgba(198,198,198,1) 0%, rgba(240,240,246,1) 100%);	
@@ -27,7 +40,7 @@
   }
   .dropdown {
   		@include media-breakpoint-up(lg) {
-      margin-top: -15rem;
+      margin-top: -17rem;
       background-color: #16213d;
       padding: 0.5rem;
       padding-top: 1rem;
@@ -155,14 +168,46 @@
 		}
 	}
 	.navbar-nav {
-		@include media-breakpoint-up(lg) {
-	}
+    ul {
+      li {
+        float: right;
+        list-style-type: none;
+        background-color: black;
+        height: 5rem;
+        margin-right: 2rem;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-top-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  width: 8.5rem;
+      @media (min-width: 1200px) and (max-width: 1400px) { 
+     margin-right: 0.3rem;
+      }
+      @media (min-width: 991px) and (max-width: 1199px) { 
+     width: 7rem;
+     margin-right: 0.3rem;
+      }
+      @media (min-width: 50px) and (max-width: 991px) { 
+       display: none;
+      }
+   @include media-breakpoint-down(sm) {
+    display: none;
+      }
+   }
+    }
 		a {
 		@include media-breakpoint-up(lg) {
 			color: white !important;
-			margin-top: 1.5rem;
-			font-size: 1rem;
-			margin-right: 1rem;
+			margin-top: 1rem;
+			font-size: 1.6rem;
+      font-family: alvinastaleeq;
+      @media (min-width: 991px) and (max-width: 1199px) { 
+     font-size: 0.9rem;
+     }
+      
+      
+     
 		  }
 		@include media-breakpoint-down(md) {
 			text-align: right;
@@ -170,6 +215,7 @@
 			font-weight: 900;
 			font-size: 1.3rem;
 			display: none;
+
 			
 		}
 		@include media-breakpoint-only(md) {
@@ -201,6 +247,8 @@
 			font-weight: 900;
 			font-size: 1.3rem;
 			color: #5a5a5a;
+      font-family: alvinastaleeq;
+
 			
 		}
 		@include media-breakpoint-only(md) {
@@ -209,6 +257,8 @@
 			font-weight: 900;
 			font-size: 1.3rem;
 			color: #5a5a5a;
+      font-family: alvinastaleeq;
+
 			
 		}
 	@include media-breakpoint-down(sm) {
@@ -217,6 +267,8 @@
 		color: #5a5a5a;
 		font-weight: 900;
 		font-size: 1.3rem;
+    font-family: alvinastaleeq;
+
 	}
 	}
 }

@@ -1,7 +1,7 @@
 @use '../custom' as *;
 .facilities {
 	@include media-breakpoint-up(lg) {
-		margin-top: 11rem;
+		margin-top: 13rem;
 	}
 	@include media-breakpoint-only(md) {
 		margin-top: 10rem;
