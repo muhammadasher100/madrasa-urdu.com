@@ -12199,20 +12199,34 @@ address h1 {
   filter: drop-shadow(0.2em 0.3em 0.2em);
 }
 address p {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: right;
   font-family: alvinastaleeq;
+  font-size: 2rem;
+}
+@media (min-width: 50px) and (max-width: 575px) {
+  address p {
+    font-size: 1.3rem;
+  }
 }
 address .contact-details {
   text-align: right;
 }
 address .contact-details ul li {
   font-family: alvinastaleeq;
+  font-size: 2rem;
   list-style-type: none;
 }
 address .contact-details ul li span {
+  font-size: 1.5rem;
+  font-weight: bold;
   margin-right: 2rem;
   font-family: alvinastaleeq;
+}
+@media (min-width: 50px) and (max-width: 575px) {
+  address .contact-details ul li span {
+    font-size: 1.1rem;
+  }
 }
 
 .course-page {
@@ -12453,7 +12467,7 @@ address .contact-details ul li span {
 .course-page .description h5 {
   font-family: alvinastaleeq;
   line-height: 2.3rem;
-  font-size: 1rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 575.98px) {
