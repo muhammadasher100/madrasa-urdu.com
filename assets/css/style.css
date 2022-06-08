@@ -12065,6 +12065,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .google-form {
     margin-top: 8rem;
+    position: relative;
   }
 }
 .google-form h1 {
@@ -13199,6 +13200,7 @@ address .contact-details ul li span {
 @media (max-width: 575.98px) {
   .footer-2 {
     display: block;
+    position: absolute;
   }
 }
 .footer-2 .number {
