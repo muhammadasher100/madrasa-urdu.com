@@ -10,7 +10,8 @@
 		color: #17223e;
 		font-weight: 700;
     filter: drop-shadow(0.20em 0.30em 0.2em);
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
 		@include media-breakpoint-only(md) {
 			font-size: 1.5rem;
@@ -19,7 +20,8 @@
 		color: #17223e;
 	    
     filter: drop-shadow(0.20em 0.30em 0.2em);
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
 
 		}
@@ -31,7 +33,8 @@
 		
 
     filter: drop-shadow(0.20em 0.30em 0.2em);
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
 		}
 	}
@@ -42,7 +45,8 @@
 		}
 			h1 {
        font-size: 2.2rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
      margin-top: 1rem;
      margin-bottom: 2rem;
 		color: #17223e;
@@ -52,7 +56,8 @@
 
 			@include media-breakpoint-only(md) {
 			font-weight: 900;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 		color: #17223e;
 		
      
@@ -63,7 +68,8 @@
 			font-size: 1.4rem;
 			margin-bottom: 1rem;
 			margin-top: -2rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 		color: #17223e;
 		
     
@@ -72,20 +78,23 @@
 		}
 		h2 {
 			  font-size: 1.5rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
      color: black;
      margin-bottom: 1rem;
      
 				@include media-breakpoint-only(md) {
 				font-size: 1.5rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
     }
     	@include media-breakpoint-down(sm) {
 				font-size: 0.9rem;
 				font-weight: bold;
 				margin-top: 0.5rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
 			}
 	}
@@ -101,7 +110,8 @@
 		}
 		h1 {
 			font-size: 2.2rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
      margin-top: 1rem;
      margin-bottom: 2rem;
 		color: #17223e;
@@ -121,7 +131,8 @@
 		}
 		h2 {
 		    font-size: 1.5rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
     margin-bottom: 1rem;
     color: black;
 				@include media-breakpoint-only(md) {
@@ -153,21 +164,24 @@
  			font-size: 2.8rem;
  			margin-top: 3rem;
  			margin-bottom: 6rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  		@include media-breakpoint-only(md) {
  			font-size: 2.7rem;
  			margin-top: 4rem;
  			margin-bottom: 4rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  		@include media-breakpoint-down(sm) {
  			font-size: 1.8rem;
  			margin-top: 2rem;
  			margin-bottom: 4rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
 
@@ -179,7 +193,8 @@
  			font-weight: 600;
  			margin-top: -4rem;
  			margin-bottom: 2rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  		@include media-breakpoint-only(md) {
@@ -188,7 +203,8 @@
  			margin-right: 6rem;
  			font-size: 1.9rem;
  			font-weight: 900;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  		@include media-breakpoint-down(sm) {
@@ -197,7 +213,8 @@
  			margin-bottom: 2rem;
  			font-size: 1.2rem;
  			font-weight: 600;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  	}
@@ -206,7 +223,8 @@
  		color: black;
  		@include media-breakpoint-up(lg) {
  			margin-right: 8rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
      font-size: 1.6rem;
      margin-bottom: 1rem;
      color: black;
@@ -219,7 +237,8 @@
  			margin-bottom: 1.5rem;
  			font-size: 1.2rem;
  			color: black;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  		@include media-breakpoint-down(sm) {
@@ -228,19 +247,22 @@
  			font-size: 0.9rem;
  			line-height: 1.5rem;
  			color: black;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
  		}
  	}
  	h5 {
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
  		 line-height: 2.3rem;
      font-size: 1rem;
      margin-bottom: 2rem;
 
      @include media-breakpoint-down(sm) {
      	font-size: 1.2rem;
-		font-family: alqalam;
+     font-family: alvinastaleeq;
+
 
      }
  	}

@@ -170,9 +170,10 @@
 	margin-bottom: 4rem;     
 	filter: drop-shadow(0.80em 0.80em 0.7em);
 	h5 {
-		font-size: 5rem;
+		font-size: 7rem;
 		font-weight: bold;
-  font-family: 'Noto Nastaliq Urdu', serif;
+     font-family: alvinastaleeq;
+
 		
     
     }
@@ -180,9 +181,10 @@
   @media (min-width: 576px) and (max-width: 767px) { 
       h5 {
       text-align: right;
-      font-size: 2rem;
+      font-size: 3rem;
       margin-right: 5rem;
-      font-family: 'Noto Nastaliq Urdu', serif;
+     font-family: alvinastaleeq;
+
       font-weight: 900;
      	filter: drop-shadow(0.50em 0.60em 0.3em);
 
@@ -196,8 +198,9 @@
 			 margin-bottom: 1rem;
      	filter: drop-shadow(0.50em 0.60em 0.3em);
      h5 {
-      font-family: 'Noto Nastaliq Urdu', serif;
-    	font-size: 2rem;
+     font-family: alvinastaleeq;
+
+    	font-size: 3rem;
      }
 		}
   @include media-breakpoint-down(sm) {
@@ -206,8 +209,9 @@
 			 margin-bottom: 1rem;
      	filter: drop-shadow(0.50em 0.60em 0.3em);
      	h5 {
-        font-family: 'Noto Nastaliq Urdu', serif;
-     		font-size: 2rem;
+     font-family: alvinastaleeq;
+
+     		font-size: 3rem;
      		font-weight: 600;
      		&:hover {
      			text-decoration: underline;
@@ -242,22 +246,23 @@
 
 		}
 	h5 {
-		font-size: 5rem;
+		font-size: 6rem;
 		font-weight: bold;
-  font-family: 'Noto Nastaliq Urdu', serif;
+     font-family: alvinastaleeq;
+
 
   @media (min-width: 576px) and (max-width: 767px) { 
-     font-size: 2rem;
+     font-size: 3rem;
      margin-left: 5rem;
      	filter: drop-shadow(0.50em 0.60em 0.3em);
 
       }
 		@include media-breakpoint-only(md) {
 
-	     font-size: 2rem;	
+	     font-size: 3rem;	
 		}
   @include media-breakpoint-down(sm) {
-	  font-size: 2rem;
+	  font-size: 3rem;
     &:hover {
     	text-decoration: underline;
     }
@@ -267,30 +272,32 @@
 .last-section {
 	margin-top: 5rem;
 	h1 {
-		font-size: 1.8rem;
+		font-size: 2rem;
 		text-align: right;
 		line-height: 3rem;
 		margin-bottom: 2rem;
 		color: #17223e;
 		font-weight: lighter;
    	filter: drop-shadow(0.50em 0.60em 0.3em);
-    font-family: 'Noto Nastaliq Urdu', serif;
+     font-family: alvinastaleeq;
+
 
 		@include media-breakpoint-down(sm) {
-			font-size: 1.1rem;
+			font-size: 1.4rem;
 		  color: #17223e;
 
 		}
 
 	}
 	h2 {
-		font-size: 1.3rem;
+		font-size: 1.8rem;
 		text-align: right;
-    font-family: 'Noto Nastaliq Urdu', serif;
+     font-family: alvinastaleeq;
+
     color: black;
 
 			@include media-breakpoint-down(sm) {
-			font-size: 1rem;
+			font-size: 1.3rem;
 			margin-top: -2rem;
 			line-height: 2rem;
 
