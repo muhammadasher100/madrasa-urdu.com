@@ -9,6 +9,8 @@
      filter: drop-shadow(0.20em 0.30em 0.2em);
      font-size: 3rem;
      color: #17223e;
+     font-family: alqalam;
+
      @include media-breakpoint-only(md) {
      	margin-top: -2rem;
      }
@@ -58,25 +60,25 @@ address {
     margin-top: 2rem;
     h1 {
         text-align: right;
-          font-family: 'Noto Nastaliq Urdu', serif;
+        font-family: alqalam;
          color: #17223e;
      filter: drop-shadow(0.20em 0.30em 0.2em);
     }
     p {
         margin-top: 2rem;
         text-align: right;
-         font-family: 'Noto Nastaliq Urdu', serif;
+        font-family: alqalam;
 
     }
     .contact-details {
         text-align: right;
         ul li {
-         font-family: 'Noto Nastaliq Urdu', serif;
+            font-family: alqalam;
 
             list-style-type:  none;
             span {
                 margin-right: 2rem;
-         font-family: 'Noto Nastaliq Urdu', serif;
+                font-family: alqalam;
 
             }
         }

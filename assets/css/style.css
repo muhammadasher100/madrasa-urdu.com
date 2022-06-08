@@ -11887,7 +11887,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .purposes h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11896,7 +11896,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11905,7 +11905,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) and (max-width: 767px) {
   .purposes h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11914,7 +11914,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .purposes h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     margin-bottom: 1.5rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11923,7 +11923,7 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .purposes h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-bottom: 3rem;
     color: red;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11932,7 +11932,7 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-bottom: 3rem;
     color: red;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11941,7 +11941,7 @@ textarea.form-control-lg {
 @media (min-width: 576px) and (max-width: 767px) {
   .purposes h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-bottom: 3rem;
     color: red;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -11950,7 +11950,7 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .purposes h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-bottom: 2rem;
     color: red;
     font-size: 1.2rem;
@@ -11960,8 +11960,8 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .purposes h3 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.3rem;
+    font-family: alqalam;
+    font-size: 1.6rem;
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 3rem;
@@ -11970,8 +11970,8 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h3 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.3rem;
+    font-family: alqalam;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 3rem;
@@ -11980,8 +11980,8 @@ textarea.form-control-lg {
 @media (min-width: 576px) and (max-width: 767px) {
   .purposes h3 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.3rem;
+    font-family: alqalam;
+    font-size: 1.5rem;
     font-weight: 400;
     margin-bottom: 2rem;
     line-height: 3rem;
@@ -11990,8 +11990,8 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .purposes h3 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1rem;
+    font-family: alqalam;
+    font-size: 1.2rem;
     font-weight: 400;
     margin-bottom: 1.5rem;
     line-height: 1.8rem;
@@ -12000,9 +12000,9 @@ textarea.form-control-lg {
 @media (min-width: 992px) {
   .purposes h4 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
-    font-size: 1rem;
+    font-size: 1.5rem;
     font-weight: 100;
     margin-bottom: 2rem;
     margin-right: 4rem;
@@ -12012,9 +12012,9 @@ textarea.form-control-lg {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .purposes h4 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
-    font-size: 1rem;
+    font-size: 1.4rem;
     font-weight: 100;
     margin-bottom: 2rem;
     margin-right: 3rem;
@@ -12024,9 +12024,9 @@ textarea.form-control-lg {
 @media (min-width: 576px) and (max-width: 767px) {
   .purposes h4 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
-    font-size: 1rem;
+    font-size: 1.3rem;
     font-weight: 100;
     margin-bottom: 2rem;
     margin-right: 3rem;
@@ -12036,9 +12036,9 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .purposes h4 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     font-weight: 100;
     margin-bottom: 2rem;
     line-height: 2rem;
@@ -12065,13 +12065,12 @@ textarea.form-control-lg {
 @media (max-width: 575.98px) {
   .google-form {
     margin-top: 8rem;
-    overflow: hidden;
   }
 }
 .google-form h1 {
   text-align: center;
   margin-bottom: 3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
   font-weight: 400;
   filter: drop-shadow(0.2em 0.3em 0.2em);
 }
@@ -12126,6 +12125,7 @@ textarea.form-control-lg {
   filter: drop-shadow(0.2em 0.3em 0.2em);
   font-size: 3rem;
   color: #17223e;
+  font-family: alqalam;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .contact h1 {
@@ -12190,57 +12190,57 @@ address {
 }
 address h1 {
   text-align: right;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
   color: #17223e;
   filter: drop-shadow(0.2em 0.3em 0.2em);
 }
 address p {
   margin-top: 2rem;
   text-align: right;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
 }
 address .contact-details {
   text-align: right;
 }
 address .contact-details ul li {
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
   list-style-type: none;
 }
 address .contact-details ul li span {
   margin-right: 2rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
 }
 
 .course-page {
   margin-top: 14rem;
 }
 .course-page h1 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 2rem;
   line-height: 2rem;
   color: #17223e;
   font-weight: 700;
   filter: drop-shadow(0.2em 0.3em 0.2em);
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-family: alqalam;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page h1 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 2.5rem;
     line-height: 3rem;
     color: #17223e;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
   .course-page h1 {
-    font-size: 1rem;
+    font-size: 1.3rem;
     margin-bottom: 3rem;
-    margin-top: -2rem;
+    margin-top: -4.5rem;
     color: #17223e;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
@@ -12249,8 +12249,8 @@ address .contact-details ul li span {
   }
 }
 .course-page .details h1 {
-  font-size: 2rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 2.2rem;
+  font-family: alqalam;
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: #17223e;
@@ -12258,39 +12258,39 @@ address .contact-details ul li span {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details h1 {
     font-weight: 900;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
-    font-size: 2rem;
+    font-size: 2.2rem;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .details h1 {
     font-weight: 600;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
     margin-top: -2rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     color: #17223e;
   }
 }
 .course-page .details h2 {
-  font-size: 1.3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 1.5rem;
+  font-family: alqalam;
   color: black;
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details h2 {
-    font-size: 1.3rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 1.5rem;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .details h2 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-top: 0.5rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (min-width: 992px) {
@@ -12304,8 +12304,8 @@ address .contact-details ul li span {
   }
 }
 .course-page .details-1 h1 {
-  font-size: 2rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 2.2rem;
+  font-family: alqalam;
   margin-top: 1rem;
   margin-bottom: 2rem;
   color: #17223e;
@@ -12319,25 +12319,25 @@ address .contact-details ul li span {
 @media (max-width: 575.98px) {
   .course-page .details-1 h1 {
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     margin-bottom: 1rem;
-    margin-top: -5rem;
+    margin-top: -6rem;
   }
 }
 .course-page .details-1 h2 {
-  font-size: 1.3rem;
-  font-family: "Noto Nastaliq Urdu", serif;
+  font-size: 1.5rem;
+  font-family: alqalam;
   margin-bottom: 1rem;
   color: black;
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .details-1 h2 {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .details-1 h2 {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     font-weight: bold;
     margin-top: 0.5rem;
   }
@@ -12360,36 +12360,36 @@ address .contact-details ul li span {
 }
 @media (min-width: 992px) {
   .course-page .description h1 {
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     margin-top: 3rem;
     margin-bottom: 6rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .course-page .description h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-top: 4rem;
     margin-bottom: 4rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .description h1 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     margin-top: 2rem;
     margin-bottom: 4rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (min-width: 992px) {
   .course-page .description h3 {
     margin-right: 6rem;
-    font-size: 2rem;
+    font-size: 2.3rem;
     font-weight: 600;
     margin-top: -4rem;
     margin-bottom: 2rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -12397,9 +12397,9 @@ address .contact-details ul li span {
     margin-top: -2rem;
     margin-bottom: 2rem;
     margin-right: 6rem;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     font-weight: 900;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
@@ -12407,9 +12407,9 @@ address .contact-details ul li span {
     margin-top: -3rem;
     margin-right: 2rem;
     margin-bottom: 2rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 600;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 .course-page .description h4 {
@@ -12419,8 +12419,8 @@ address .contact-details ul li span {
 @media (min-width: 992px) {
   .course-page .description h4 {
     margin-right: 8rem;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.3rem;
+    font-family: alqalam;
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     color: black;
     font-weight: lighter;
@@ -12431,31 +12431,31 @@ address .contact-details ul li span {
     margin-right: 8rem;
     font-weight: lighter;
     margin-bottom: 1.5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: black;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 @media (max-width: 575.98px) {
   .course-page .description h4 {
     margin-right: 3rem;
     font-weight: lighter;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
     line-height: 1.5rem;
     color: black;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
   }
 }
 .course-page .description h5 {
-  font-family: "Noto Nastaliq Urdu", serif;
-  line-height: 2rem;
+  font-family: alqalam;
+  line-height: 2.3rem;
   font-size: 1rem;
   margin-bottom: 2rem;
 }
 @media (max-width: 575.98px) {
   .course-page .description h5 {
-    font-size: 1rem;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-size: 1.2rem;
+    font-family: alqalam;
   }
 }
 
@@ -12482,7 +12482,7 @@ address .contact-details ul li span {
 @media (min-width: 992px) {
   .facilities h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     margin-bottom: 2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
@@ -12491,7 +12491,7 @@ address .contact-details ul li span {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
@@ -12500,7 +12500,7 @@ address .contact-details ul li span {
 @media (min-width: 576px) and (max-width: 767px) {
   .facilities h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
@@ -12509,7 +12509,7 @@ address .contact-details ul li span {
 @media (max-width: 575.98px) {
   .facilities h1 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 600;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
@@ -12518,7 +12518,7 @@ address .contact-details ul li span {
 @media (min-width: 992px) {
   .facilities h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 200;
     font-size: 1.5rem;
     margin-right: 5rem;
@@ -12529,7 +12529,7 @@ address .contact-details ul li span {
 @media (min-width: 768px) and (max-width: 991.98px) {
   .facilities h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 200;
     font-size: 1.3rem;
     margin-right: 4rem;
@@ -12541,7 +12541,7 @@ address .contact-details ul li span {
 @media (min-width: 576px) and (max-width: 767px) {
   .facilities h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 200;
     font-size: 1.3rem;
     margin-right: 4rem;
@@ -12553,7 +12553,7 @@ address .contact-details ul li span {
 @media (max-width: 575.98px) {
   .facilities h2 {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-weight: 200;
     font-size: 1rem;
     margin-right: 2rem;
@@ -12905,37 +12905,37 @@ address .contact-details ul li span {
 }
 @media (min-width: 992px) {
   .faq h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1.5rem;
+    font-family: alqalam;
+    font-size: 2rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     text-align: right;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .faq h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-size: 1rem;
+    font-size: 1.3rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .faq h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     filter: drop-shadow(0.2em 0.3em 0.2em);
-    font-size: 1.5rem;
+    font-size: 1.7rem;
   }
 }
 @media (max-width: 575.98px) {
   .faq h1 {
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 1rem;
+    font-family: alqalam;
+    font-size: 1.3rem;
     filter: drop-shadow(0.2em 0.3em 0.2em);
     margin-bottom: 2rem;
   }
 }
 @media (min-width: 992px) {
   .faq p {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-top: -4rem;
     text-align: right;
     line-height: 2.5rem;
@@ -12944,7 +12944,7 @@ address .contact-details ul li span {
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .faq p {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-size: 1rem;
     margin-top: 1rem;
     line-height: 2rem;
@@ -12953,7 +12953,7 @@ address .contact-details ul li span {
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .faq p {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-size: 1rem;
     margin-top: 1rem;
     line-height: 2rem;
@@ -12962,7 +12962,7 @@ address .contact-details ul li span {
 }
 @media (max-width: 575.98px) {
   .faq p {
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     font-size: 0.9rem;
     color: red;
   }
@@ -12973,23 +12973,24 @@ address .contact-details ul li span {
 @media (min-width: 992px) {
   .faq .accordion-body p {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-right: 4rem;
     margin-bottom: 0;
     margin-top: 0.5rem;
+    font-size: 1.5rem;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
   .faq .accordion-body p {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-right: 2.2rem;
   }
 }
 @media (min-width: 576px) and (max-width: 767px) {
   .faq .accordion-body p {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
+    font-family: alqalam;
     margin-right: 2rem;
     margin-bottom: 0;
     font-weight: 100;
@@ -13000,8 +13001,8 @@ address .contact-details ul li span {
 @media (max-width: 575.98px) {
   .faq .accordion-body p {
     text-align: right;
-    font-family: "Noto Nastaliq Urdu", serif;
-    font-size: 0.7rem;
+    font-family: alqalam;
+    font-size: 0.9rem;
     line-height: 1.5rem;
     margin-right: 0.5rem;
   }
