@@ -14,8 +14,7 @@
         }
 	@include media-breakpoint-down(sm) {
    margin-top: 8rem;
-   position: relative;
-
+   overflow: hidden;
 	}
 	h1 {
 		text-align: center;
