@@ -12650,7 +12650,7 @@ address .contact-details ul li span {
 }
 .top-bar h1 {
   font-size: 2.5rem;
-  font-family: alvinastaleeq;
+  font-family: alqalam;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
   line-height: 2rem;
@@ -12658,7 +12658,7 @@ address .contact-details ul li span {
 }
 @font-face {
   .top-bar h1 {
-    font-family: alvinastaleeq;
+    font-family: alqalam;
     src: url(al-qalam/Al-Qalam-Quran-Majeed-2.ttf) format("truetype");
   }
 }
@@ -12671,7 +12671,7 @@ address .contact-details ul li span {
 }
 .top-bar h2 {
   font-size: 1.5rem;
-  font-family: alvinastaleeq;
+  font-family: alqalam;
 }
 @media (max-width: 575.98px) {
   .top-bar h2 {
