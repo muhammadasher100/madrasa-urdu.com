@@ -127,8 +127,11 @@
 		width: 100%;
 		margin-top: -2rem;
 	}
-	@media (min-width: 400px) and (max-width: 575px) { 
+	@media (min-width: 411px) and (max-width: 575px) { 
   margin-left: -1rem;
+  }
+  @media (min-width: 520px) and (max-width: 575px) { 
+  margin-left: -5rem;
   }
 }
 
